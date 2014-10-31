@@ -1,0 +1,46 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.73.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+SHA1 30bf87305bcce9c4aefa25a7a9a846124ee7997b Changes
+SHA1 76f5dfa71ce9f6972479a579b83e2bb2ce7ba456 MANIFEST
+SHA1 678ba96836d365cefaa399d7bb71578221619345 META.json
+SHA1 bd38269de084f0792cb26f46a93c659202c92ccd META.yml
+SHA1 03c0d744f7bfcad0ac27ab3915c8b8bb62ca36c5 Makefile.PL
+SHA1 2ad62699cee213781c5708581feed4b5b663cdc3 README
+SHA1 5f4be248bd75db5666463125c13e756d4701d1bd lib/WWW/Search/Coveralia.pm
+SHA1 faf2b1195d1a638025d2776ff388c5f83cd8819e lib/WWW/Search/Coveralia/Albums.pm
+SHA1 9467a05eca6ed01f39ca76f05ab492c2e8b68dfa lib/WWW/Search/Coveralia/Artists.pm
+SHA1 432008e7ab0aea15c5224c62f169c6039b363bb5 lib/WWW/Search/Coveralia/Result/Album.pm
+SHA1 91993015382c341532a7b3b5ddaebbea8a17156a lib/WWW/Search/Coveralia/Result/Artist.pm
+SHA1 af24ad01c91b5834cf8cf327e5383fc025d7ee36 t/albums.t
+SHA1 f848b65c1e77705f3d0f8da1e7a6d24317746d6b t/artists.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iQIcBAEBCgAGBQJUVA/SAAoJEMoENb5ewbNiKKgP/RitMFnlbbml/GfkSTYUs0P9
+MXaDx361v/bai2K9sS1pqQlGi9EbCLHNa3br0lFzJXENiQkr+avo3Df4RUeL/M9a
+ALJuCaH7dxeEoPv/7vY+ItRdwxOUNaJEfwZjvjWqf4mG5XvEexjuJpYMUuPLHuqi
+3G3Bv7rdeBmhnQYVKIKjoRzCRfw1yIt9N9zki+qJMpVAGvxAgbT6H0Ox4xjwJk8m
+6wY8gY/hr8W9MiLq+tYxza6x4+HV5QoWZnZC4vhBPzTdx5AvybtbgYEOrSuVCFCd
+5jSl/2vmS1tBmrODWnN8rQOiCWaf6ds0yYfld5y+kj6fywFnjgvAb1x/TOlgzZv1
+ytQyfqpZrqdmYqU/eeBolxUG4aol9e3cmmnZ2tmyulCMJRRu0yG3JptsBoHt4qDp
+cqReOp6pdVQO0LwRzMEdmtGPN/iT8DMZnrZcwAv99aROK5LzgQByMnA12eEuF6MG
+OnWYVzLtmWVM4e1dljSeGaZK7Yr1Z+pvDHhllicvMqFNit7z0KPcKVGFaVII2Sf0
+tJGbBO7IsN3Q4/zvose/dTK/OJu71gzfuueY5EivA3OF+gpz7G5c9wN6vMifidAD
+oD29WROUofuB8iv3xGsoyRD45LztEj2/Mw2b5tVMLPm6Tv9QL95soe/Y9whv/oXc
+XdIqJIr/CElRTBlWLBPk
+=Eul5
+-----END PGP SIGNATURE-----
