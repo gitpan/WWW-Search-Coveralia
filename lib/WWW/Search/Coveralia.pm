@@ -5,7 +5,7 @@ use strict;
 use warnings;
 use parent qw/WWW::Search/;
 
-our $VERSION = '0.000_001';
+our $VERSION = '0.001';
 our $MAINTAINER = 'Marius Gavrilescu <marius@ieval.ro>';
 
 sub DEFAULT_URL;

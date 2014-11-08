@@ -3,6 +3,7 @@ abstract: 'search coveralia.com with WWW::Search'
 author:
   - 'Marius Gavrilescu <marius@ieval.ro>'
 build_requires:
+  Test::RequiresInternet: '0'
   WWW::Search::Test: '0'
 configure_requires:
   ExtUtils::MakeMaker: '0'
@@ -25,4 +26,4 @@ requires:
   perl: '5.014000'
 resources:
   repository: http://git.ieval.ro/?p=www-search-coveralia.git
-version: 0.000_001
+version: '0.001'

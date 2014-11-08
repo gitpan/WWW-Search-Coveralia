@@ -22,6 +22,7 @@
    "prereqs" : {
       "build" : {
          "requires" : {
+            "Test::RequiresInternet" : "0",
             "WWW::Search::Test" : "0"
          }
       },
@@ -40,11 +41,11 @@
          }
       }
    },
-   "release_status" : "testing",
+   "release_status" : "stable",
    "resources" : {
       "repository" : {
          "url" : "http://git.ieval.ro/?p=www-search-coveralia.git"
       }
    },
-   "version" : "0.000_001"
+   "version" : "0.001"
 }

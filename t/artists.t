@@ -5,6 +5,7 @@ use warnings;
 use List::Util qw/first/;
 use WWW::Search::Test;
 
+use Test::RequiresInternet qw/www.coveralia.com 80/;
 use Test::More tests => 9;
 
 tm_new_engine('Coveralia::Artists');

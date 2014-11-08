@@ -5,7 +5,7 @@ use strict;
 use warnings;
 use parent qw/WWW::Search::Coveralia/;
 
-our $VERSION = '0.000_001';
+our $VERSION = '0.001';
 
 use WWW::Search::Coveralia::Result::Album;
 use constant DEFAULT_URL => 'http://www.coveralia.com/mostrar_discos.php';
